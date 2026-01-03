@@ -1,0 +1,173 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin-left: 15px;
+        background-image: url(./Images/gradient12.jpg);
+        background-size: 1500px 2500px;
+        background-repeat: no-repeat;
+        background: cover;
+    }
+
+    header {
+        background: white;
+        color: rgba(248, 237, 85, 0.644);
+        padding: 1.5rem;
+        text-align: center;
+        margin-bottom: 20px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(3, 11, 43, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        vertical-align: middle;
+        line-height: 100px; 
+        border: 2px solid #333;
+    }
+
+        .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .card {
+        background: white;
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(3, 11, 43, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: inline-block;
+        margin-bottom: 35px;
+        vertical-align: middle;
+        line-height: 100px; 
+        border: 5px solid #333;
+        
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(83, 7, 7, 0.2);
+    }
+
+        
+    selector {
+    display: inline-block;
+}
+.box {
+    display: inline-block; 
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: lightblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+    .shadow-box {
+        width: 300px;
+        height: 350px;
+        -moz-box-align: center;
+        background-color: white;
+        border-radius: 12px;
+        text-align: center;
+        margin-bottom: 35px;
+        line-height: 150px;
+        font-size: 18px;
+        font-weight: bold;
+        /* Multiple shadows: offset-x offset-y blur-radius spread-radius color */
+        box-shadow: 
+            5px 5px 15px rgba(255, 0, 0, 0.6),   /* Red shadow */
+            -5px -5px 15px rgba(0, 255, 0, 0.6), /* Green shadow */
+            5px -5px 15px rgba(0, 0, 255, 0.6),  /* Blue shadow */
+            -5px 5px 15px rgba(255, 255, 0, 0.6);/* Yellow shadow */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .shadow-box:hover {
+        transform: scale(1.05);
+        box-shadow: 
+            8px 8px 20px rgba(255, 0, 0, 0.8),
+            -8px -8px 20px rgba(0, 255, 0, 0.8),
+            8px -8px 20px rgba(0, 0, 255, 0.8),
+            -8px 8px 20px rgba(255, 255, 0, 0.8);
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background: rgba(194, 236, 8, 0.452);
+        color: white;
+        margin-top: 2rem;
+    }
+    .headercard {
+        background: yellow;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(3, 11, 43, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-right: 25px;
+        margin-bottom: 30;
+        color: violet;
+        font-size: xx-large;
+        display: block;
+
+    }
+    .headercard:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(106, 2, 2, 0.888);
+    }
+    .card-content {
+        background: blue;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(3, 11, 43, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding-top: 50px;
+        padding-left: 50px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+        color: violet;
+        font-size: xx-large;
+        display: block;
+    }
+    .card-content:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(106, 2, 2, 0.888);
+    }
+    .headershadow-box {
+        background: rgba(190, 231, 42, 0.733);
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(112, 133, 216, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding-top: 40px;
+        padding-left: 50px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+        color: violet;
+        font-size: xx-large;
+        display: block;
+       
+
+    }
+    .headershadow-box:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(106, 2, 2, 0.888);
+    }
+    
+    
